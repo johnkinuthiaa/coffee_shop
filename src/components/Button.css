@@ -1,0 +1,23 @@
+.btn{
+    width: 100%;
+
+}
+.btn button{
+    background-color: #C18553;
+    outline: none;
+    border: 0;
+    text-align: center;
+    padding: 10px 30px;
+    width: 100%;
+    font-size: 27px;
+    color: whitesmoke;
+    font-weight: lighter;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    transition: background-color 0.15ms;
+
+}
+.btn button:hover{
+    background-color: black;
+    cursor: pointer;
+}

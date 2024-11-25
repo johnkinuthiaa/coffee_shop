@@ -1,0 +1,36 @@
+.home__body{
+    margin: 10px;
+}
+.category__selection{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    margin-top: 10px;
+}
+.category__selection button{
+    padding: 10px 20px;
+    width: 200px;
+    cursor: pointer;
+}
+.category__selection>*{
+    margin-right: 5px;
+}
+.coffee__available{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+.coffee__available>*{
+    width: 47%;
+    margin-left: 10px;
+}
+.coffee__available img{
+    /*height: 117px;*/
+    /*width: 147px;*/
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    /*object-fit: contain;*/
+}

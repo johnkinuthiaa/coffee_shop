@@ -1,0 +1,30 @@
+.flavours{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    /*margin-bottom: 5px;*/
+    margin: 5px;
+    width: 100%;
+    gap: 10px;
+    /*border: 2px solid;*/
+    box-shadow:0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.add__to__cart button{
+    border-radius: 50%;
+    background-color: #C18553;
+    align-items: baseline;
+    height: fit-content;
+    width: fit-content;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-right: 5px;
+
+}
+.text__part{
+    display: flex;
+    /*justify-content: space-between;*/
+}

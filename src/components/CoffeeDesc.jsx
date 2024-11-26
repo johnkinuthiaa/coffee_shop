@@ -60,7 +60,6 @@ const CoffeeDesc =()=>{
                     <div className={"bottom__add__to__cart"} >
                         <CategoryButton title={`Add to cart  Ksh ${item.price*130}`}/>
                     </div>
-
                 </div>
             </div>
         </div>

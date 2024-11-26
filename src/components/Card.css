@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     /*margin-bottom: 5px;*/
+    padding: 2px;
     margin: 5px;
     cursor: pointer;
     width: 100%;
@@ -12,7 +13,9 @@
     box-shadow:0 0 4px rgba(0, 0, 0, 0.2);
 }
 
-
+.text__part>div>*,.add__to__cart{
+    padding: 10px;
+}
 .add__to__cart button{
     border-radius: 50%;
     background-color: #C18553;
@@ -21,7 +24,7 @@
     width: fit-content;
     border: none;
     outline: none;
-    padding: 10px;
+    padding: 5px;
     margin-right: 5px;
 
 }
@@ -29,8 +32,12 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    flex-direction: column;
 }
 .add__to__cart{
     display: flex;
-    align-items: baseline;
+}
+.amount{
+    font-size: 20px;
+    font-weight: 900;
 }

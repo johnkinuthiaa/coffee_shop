@@ -4,6 +4,7 @@ import Data from "/src/Data.js"
 import Card from "./Card.jsx";
 import {Link, useNavigate} from "react-router-dom";
 import CoffeeDesc from "./CoffeeDesc.jsx";
+import DataContainer from "./DataContainer.jsx";
 const Body =()=>{
     const navigate =useNavigate()
     return(
@@ -20,28 +21,7 @@ const Body =()=>{
                 <CategoryButton title={"Affogato"} />
 
             </div>
-            <div className={"coffee__available"}>
-                {Data.length>0?
-                    (Data.map((coffee,key)=>(
-                        <div className={"coffee_holder"}  onClick={()=>{
-                            navigate(`/description/${key}`)
-
-                        }}>
-                            <Card name={coffee.name}
-                                  image={coffee.image}
-                                  price={coffee.price}
-                                  incl={coffee.categories}
-                                  description={coffee.description}
-
-                            />
-                        </div>
-                    )))
-                    :
-                    (
-                        <div>data is empty</div>
-                    )
-                }
-            </div>
+            <DataContainer Data={Data}/>
         </div>
     )
 }

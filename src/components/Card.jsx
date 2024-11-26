@@ -11,7 +11,7 @@ const Card =({image,name,incl,price,description})=>{
                 <div>
                     <h4>{name}</h4>
                     <p>{incl[0]}</p>
-                    <p>Ksh: {price}</p>
+                    <p>Ksh: <span className={"amount"}>{price*130}</span></p>
                 </div>
                 {/*<p>{description}</p>*/}
                 <div className={"add__to__cart"}>

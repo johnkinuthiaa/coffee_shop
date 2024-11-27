@@ -18,6 +18,8 @@
 .bottom__description .about>.about__categories>p{
     color: white;
     font-size: 16px;
+    font-family: serif;
+    font-weight: bold;
 }
 .bottom__description .about>.about__categories>p:nth-child(2),p:nth-child(3){
     padding: 10px;
@@ -52,6 +54,7 @@
 }
 .text>p{
     margin-top: 10px;
+    font-family: "Geist mono", serif;
 }
 .rating{
     display: flex;

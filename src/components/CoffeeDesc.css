@@ -44,7 +44,7 @@
 .bottom__name{
     display: flex;
     justify-content: space-between;
-    margin-top: 80%;
+    margin-top: -20px;
     color: #ffffff;
 }
 .text{
@@ -58,10 +58,11 @@
     background-color: #C18553;
     border-radius: 20px;
     align-items: center;
-    padding: 5px;
+    padding: 3px;
     margin-right: 10px;
     color: white;
     margin-bottom: 5px;
+
 }
 .size__buttons {
     display: flex;
@@ -90,6 +91,8 @@
 .bottom__description{
     display: flex;
     flex-direction: column;
-    margin-top: 5px;
+    margin-top: -15px;
     height: 100%;
+    border-radius: 50px 50px 0 0;
+    background-color: white;
 }

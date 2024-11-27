@@ -23,7 +23,7 @@ const DataContainer =({Data})=>{
                 )))
                 :
                 (
-                    <div>data is empty</div>
+                    <div></div>
                 )
             }
         </div>

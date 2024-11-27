@@ -27,7 +27,7 @@ const SearchSection =()=>{
                 <NotificationsNoneIcon/>
                 <div className={"shopping__cart"}>
                     <ShoppingCart className={"shopping__cart__icon"}/>
-                    <p>1</p>
+                    <span className={"cart__items"}>1</span>
                 </div>
             </div>
             <div className={"search__section__welcome"}>

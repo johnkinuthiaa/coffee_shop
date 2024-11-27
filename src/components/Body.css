@@ -27,10 +27,8 @@
     margin-left: 10px;
 }
 .coffee__available img{
-    /*height: 117px;*/
-    /*width: 147px;*/
     width: 100%;
-    height: fit-content;
+    height: 233px;
     border-radius: 10px;
-    /*object-fit: contain;*/
+
 }

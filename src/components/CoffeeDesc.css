@@ -2,7 +2,27 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 5px;
+    margin: 0;
+    border-radius: 5px;
+}
+.coffee__description h1,h2,h3,p{
+    margin: 10px;
+}
+.bottom__description .about>.about__categories{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: rgb(183, 183, 183);
+}
+.bottom__description .about>.about__categories>p{
+    color: white;
+    font-size: 16px;
+}
+.bottom__description .about>.about__categories>p:nth-child(2),p:nth-child(3){
+    padding: 10px;
+    border-left: 2px solid black;
+
 }
 .top__part{
     display: flex;
@@ -25,6 +45,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 80%;
+    color: #ffffff;
 }
 .text{
     margin-top: 10px;
@@ -40,28 +61,31 @@
     padding: 5px;
     margin-right: 10px;
     color: white;
+    margin-bottom: 5px;
 }
-.size__buttons{
+.size__buttons {
     display: flex;
-
+    border-radius: 10px;
 
 }
 .size__buttons>*{
     padding: 5px ;
-    margin: 0 ;
-    font-size: 10px ;
+    margin: 10px ;
+    font-size: 20px ;
     width: 33.33% ;
     align-items: center;
     text-align: center;
-    border-radius: 10px !important;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #C18553;
 }
 .bottom__add__to__cart{
-    margin-top: 10px;
-    bottom: 0;
-    position: absolute;
     align-items: center;
     justify-content: center;
-    margin-left: 10%;
+    margin: 10px;
 }
 .bottom__description{
     display: flex;

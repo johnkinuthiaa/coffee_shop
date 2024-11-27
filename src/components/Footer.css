@@ -11,3 +11,10 @@
 .footer>p{
     border-left: none;
 }
+.footer>p>a:visited{
+    color: rgb(0,0,0);
+}
+.footer>p>a{
+    color: rgb(0,0,0);
+    text-decoration: none;
+}

@@ -1,0 +1,13 @@
+.footer{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: 0;
+}
+.footer>p{
+    border-left: none;
+}
